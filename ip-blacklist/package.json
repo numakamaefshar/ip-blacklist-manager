@@ -1,0 +1,12 @@
+{
+  "name": "ip-blacklist-manager",
+  "version": "1.0.0",
+  "description": "Extract suspicious IPs from logs and block them via iptables",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "cli": "node cli.js"
+  },
+  "keywords": ["security", "iptables", "blacklist", "logs"],
+  "license": "MIT"
+}
